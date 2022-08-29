@@ -83,18 +83,11 @@ def Save_frames(file_name,number , figure=False):
     pp.close() 
     return(Frames)
 
-            
-           
-
-    
- 
-
 
 
 
 
 class Cell:
-    
     def __init__(self,x_centre,y_centre,orientation,longueur_ellipse, indice ):
         self.x=x_centre
         self.y=y_centre
